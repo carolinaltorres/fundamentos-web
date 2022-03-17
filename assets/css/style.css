@@ -1,10 +1,17 @@
 /* Estilos da página index.html */
+
 .center {
     text-align: center;
 }
 
 .justify{
     text-align: justify;
+}
+
+body {
+    background-color: #9aebe9;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .container {
@@ -26,7 +33,11 @@
 }
 
 #menu li a:hover{
-    color: grey;
+    color: #1fa1cb;
+}
+
+.p-15 {
+    padding: 15px;
 }
 
 .p-30 {
@@ -38,8 +49,8 @@
 }
 
 .tm-social {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .mb-50 {
@@ -50,3 +61,24 @@
     margin-left: 50px;
 }
 /* Estilos da página contato.html */
+
+.botaocolorido {
+    background-color:#1fa1cb;
+    border-bottom-color: #122c50;
+}
+
+.colortext {
+    color: #122c50;
+}
+
+.margemesquerda {
+    margin-left: 100px;
+}
+
+.margemdireita {
+    margin-right: 100px;
+}
+
+footer {
+    max-height: 20%;
+}
