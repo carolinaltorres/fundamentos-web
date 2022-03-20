@@ -13,21 +13,8 @@
     text-align: justify;
 }
 
-body {
-    background-color: #fff9d2;
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-.container {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
-
 #menu {
-    background-color: #ffd2df;
+    background-color: #FE8970;
     height: 30px;
 }
 
@@ -44,7 +31,28 @@ body {
 }
 
 #menu li a:hover{
-    color: #a580ff;
+    color: #F9E0B0;
+}
+
+body {
+    background-color: #FFDBD3;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.margemesquerda {
+    margin-left: 100px;
+}
+
+.margemdireita {
+    margin-right: 100px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .p-15 {
@@ -74,22 +82,15 @@ body {
 /* Estilos da página contato.html */
 
 .botaocolorido {
-    background-color: #ffd2df;
-    border-bottom-color: #a580ff;
+    background-color: #FF7E7E;
+    border-bottom-color: #FE0000;
 }
 
 .colortext {
-    color: #122c50;
-}
-
-.margemesquerda {
-    margin-left: 100px;
-}
-
-.margemdireita {
-    margin-right: 100px;
+    color: #D12600;
 }
 
 footer {
-    max-height: 20%;
+    max-height: 15%;
+    color: #FF8D8D
 }
