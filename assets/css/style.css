@@ -4,12 +4,17 @@
     text-align: center;
 }
 
+.right { 
+    text-align: right;
+    margin-right: 3rem;
+}
+
 .justify{
     text-align: justify;
 }
 
 body {
-    background-color: #9aebe9;
+    background-color: #fff9d2;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -21,9 +26,15 @@ body {
     align-items: center;
 }
 
+#menu {
+    background-color: #ffd2df;
+    height: 30px;
+}
+
 #menu li{
     display: inline;
     padding: 15px;
+;
 }
 
 #menu li a {
@@ -33,7 +44,7 @@ body {
 }
 
 #menu li a:hover{
-    color: #1fa1cb;
+    color: #a580ff;
 }
 
 .p-15 {
@@ -63,8 +74,8 @@ body {
 /* Estilos da página contato.html */
 
 .botaocolorido {
-    background-color:#1fa1cb;
-    border-bottom-color: #122c50;
+    background-color: #ffd2df;
+    border-bottom-color: #a580ff;
 }
 
 .colortext {

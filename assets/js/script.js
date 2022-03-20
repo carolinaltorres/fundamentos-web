@@ -23,11 +23,11 @@ function validaNome() {
 
     let txtNome = document.querySelector("#txtNome")
     if (nome.value.length <=2) {
-        txtNome.innerHTML = "Nome Inválido"
+        txtNome.innerHTML = "Nome Inválido."
         txtNome.style.color = 'red'
     }
     else {
-        txtNome.innerHTML = "Nome Válido"
+        txtNome.innerHTML = "Nome Válido."
         txtNome.style.color = 'green'
         nomeOk = true
     }
