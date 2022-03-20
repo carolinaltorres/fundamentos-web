@@ -1,0 +1,95 @@
+/* Estilos da página index.html */
+
+.center {
+    text-align: center;
+}
+
+.right { 
+    text-align: right;
+    margin-right: 3rem;
+}
+
+.justify{
+    text-align: justify;
+}
+
+body {
+    background-color: #fff9d2;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    background-color: #ffd2df;
+    height: 30px;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: #a580ff;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.tm-social {
+    width: 30px;
+    height: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+/* Estilos da página contato.html */
+
+.botaocolorido {
+    background-color: #ffd2df;
+    border-bottom-color: #a580ff;
+}
+
+.colortext {
+    color: #122c50;
+}
+
+.margemesquerda {
+    margin-left: 100px;
+}
+
+.margemdireita {
+    margin-right: 100px;
+}
+
+footer {
+    max-height: 20%;
+}
