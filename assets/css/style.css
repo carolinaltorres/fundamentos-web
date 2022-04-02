@@ -14,7 +14,6 @@
 }
 
 #menu {
-    background-color: #FE8970;
     height: 30px;
 }
 
@@ -31,7 +30,7 @@
 }
 
 #menu li a:hover{
-    color: #F9E0B0;
+    color: #e93600;
 }
 
 body {
@@ -91,6 +90,5 @@ body {
 }
 
 footer {
-    max-height: 15%;
     color: #FF8D8D
 }
